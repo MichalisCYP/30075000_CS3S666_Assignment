@@ -1,0 +1,13 @@
+Timestamp, Algorithm,Number of Elements,Time Taken (s)
+15-11-2024-14-35-39,Sequential LinearSearch,1000,0.000028
+15-11-2024-14-35-39,Parallel LinearSearch,1000,0.000114
+15-11-2024-14-35-46,Sequential LinearSearch,3000,0.000034
+15-11-2024-14-35-46,Parallel LinearSearch,3000,0.000116
+15-11-2024-14-35-54,Sequential LinearSearch,5000,0.000032
+15-11-2024-14-35-54,Parallel LinearSearch,5000,0.000161
+15-11-2024-14-36-07,Sequential LinearSearch,10000,0.000024
+15-11-2024-14-36-07,Parallel LinearSearch,10000,0.000138
+15-11-2024-14-36-19,Sequential LinearSearch,20000,0.000023
+15-11-2024-14-36-19,Parallel LinearSearch,20000,0.000179
+15-11-2024-14-36-28,Sequential LinearSearch,100000,0.000016
+15-11-2024-14-36-28,Parallel LinearSearch,100000,0.000615

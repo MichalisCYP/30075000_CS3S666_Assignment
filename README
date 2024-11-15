@@ -1,0 +1,16 @@
+To run the program:
+1. Run and start the server program
+2. In a different terminal run as many client programs as you wish. The client can run on the same or a different device (if running on a different device, enter the server's IP Address.)
+3. Choose from the available options within the client.
+    You can:
+    Create a new table
+    Interact with existing tables, including adding new rows, reading all rows, sorting, and searching.
+
+OpenMP Library path may be different on your device.
+If you're using homebrew to install openMP:
+From "https://stackoverflow.com/questions/25990296/how-to-include-omp-h-in-os-x"
+After brew install libomp you can use brew --prefix libomp to get the root directory for the installed package.
+
+Find OpenMP Path: LIBOMP_ROOT=$(brew --prefix libomp) g++ prog.cpp -I $LIBOMP_ROOT/include -L $LIBOMP_ROOT/lib -l omp
+
+To compile the programs on MacOS, execute:  g++-14 -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp programName.cpp -o programName
